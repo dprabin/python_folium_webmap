@@ -17,15 +17,17 @@ def get_color(elevation):
 #map=folium.Map(location=[27.7,85.35],zoom_start=7, tiles="Mapbox Bright")
 map=folium.Map(location=[38.58,-99.09],zoom_start=2, tiles="Mapbox Bright")
 
-fg=folium.FeatureGroup(name="My Map")
+fgv=folium.FeatureGroup(name="US Voalcanoes")
 for lt, ln, el in zip(lat, lon, elev):
-    fg.add_child(folium.CircleMarker(location=[lt, ln], popup=str(el)+" meters",fill_color=(get_color(el)),color='grey',fill_opacity=0.5))
+    fgv.add_child(folium.CircleMarker(location=[lt, ln], popup=str(el)+" meters",fill_color=(get_color(el)),color='grey',fill_opacity=0.5))
+map.add_child(fgv)
 
-fg.add_child(folium.GeoJson(data=open('world.json','r',encoding='utf-8-sig').read(),
+fgwp=folium.FeatureGroup(name="World Population")
+fgwp.add_child(folium.GeoJson(data=open('world.json','r',encoding='utf-8-sig').read(),
 style_function=lambda x:{'fillColor':'green' if x['properties']['POP2005'] < 10000000
 else 'orange' if 10000000 <= x['properties']['POP2005'] <50000000 else 'red'}))
+map.add_child(fgwp)
 
-map.add_child(fg)
 map.add_child(folium.LayerControl())
 
 map.save("Map1.html")
