@@ -21,7 +21,8 @@ fg=folium.FeatureGroup(name="My Map")
 for lt, ln, el in zip(lat, lon, elev):
     fg.add_child(folium.CircleMarker(location=[lt, ln], popup=str(el)+" meters",fill_color=(get_color(el)),color='grey',fill_opacity=0.5))
 
-fg.add_child(folium.GeoJson(data=open('world.json','r',encoding='utf-8-sig').read()))
+fg.add_child(folium.GeoJson(data=open('world.json','r',encoding='utf-8-sig').read(),
+style_function=lambda x:{'fillColor':'yellow'}))
 
 map.add_child(fg)
 
