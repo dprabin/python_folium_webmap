@@ -18,7 +18,7 @@ def get_color(elevation):
         return 'red'
 
 #map=folium.Map(location=[27.7,85.35],zoom_start=7, tiles="Mapbox Bright")
-map=folium.Map(location=[28.399751,83.688888],zoom_start=10, tiles="Mapbox Bright")
+map=folium.Map(location=[28.399751,83.688888],zoom_start=11, tiles="Mapbox Bright")
 
 fg=folium.FeatureGroup(name="My Map")
 for lt, ln, el, ad in zip(lat, lon, elev,addr):
