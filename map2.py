@@ -18,11 +18,20 @@ def get_color(elevation):
         return 'red'
 
 #map=folium.Map(location=[27.7,85.35],zoom_start=7, tiles="Mapbox Bright")
-map=folium.Map(location=[28.399751,83.688888],zoom_start=11, tiles="Mapbox Bright")
+map=folium.Map(location=[28.399751,83.688888],zoom_start=6, tiles="Mapbox Bright")
 
-fg=folium.FeatureGroup(name="My Map")
+fgpoon=folium.FeatureGroup(name="Poon Hill trek")
 for lt, ln, el, ad in zip(lat, lon, elev,addr):
-    fg.add_child(folium.Marker(location=[lt, ln], popup=ad+" ("+str(el)+" meters)",icon=folium.Icon(get_color(el))))
-map.add_child(fg)
+    fgpoon.add_child(folium.Marker(location=[lt, ln], popup=ad+" ("+str(el)+" meters)",icon=folium.Icon(get_color(el))))
+map.add_child(fgpoon)
+
+
+fgwp=folium.FeatureGroup(name="World Population")
+fgwp.add_child(folium.GeoJson(data=open('world.json','r',encoding='utf-8-sig').read(),
+style_function=lambda x:{'fillColor':'green' if x['properties']['POP2005'] < 10000000
+else 'orange' if 10000000 <= x['properties']['POP2005'] <50000000 else 'red'}))
+map.add_child(fgwp)
+
+map.add_child(folium.LayerControl())
 
 map.save("Map2.html")
