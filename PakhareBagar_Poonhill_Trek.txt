@@ -20,4 +20,4 @@ SN,NAME,LOCAL,DIST,ELEV,LAT,LON
 19,Ghode Pani - Poon Hill trail,Ghode Pani,Myagdi,2900,28.401074,83.695458
 20,Ghode Pani - Poon Hil Trail,Ghode Pani,Myagdi,3000,28.401150,83.695414
 21,Ghode Pani - Poon Hill trail,Ghode Pani,Myagdi,3100,28.400470,83.692411
-22,Poon,Ghode Pani,Myagdi,3100,28.399751,83.688888
+22,Poon Hill,Ghode Pani,Myagdi,3100,28.399751,83.688888
