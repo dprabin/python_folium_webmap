@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_850e84348a454854b6823e3aba171b2e {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_850e84348a454854b6823e3aba171b2e" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_850e84348a454854b6823e3aba171b2e = L.map(
+        'map_850e84348a454854b6823e3aba171b2e', {
+        center: [28.399751, 83.688888],
+        zoom: 10,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_46f2a27871f3408da3ad89065c51a42f = L.tileLayer(
+        'https://{s}.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_850e84348a454854b6823e3aba171b2e);
+    
+            var feature_group_0cbd9aa5c8a74f828d841e32e2280a61 = L.featureGroup(
+                ).addTo(map_850e84348a454854b6823e3aba171b2e);
+        
+    
+        var marker_8f02543c0c154eb39f8307e758e2b1d2 = L.marker(
+            [28.483262, 83.646371],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_0cbd9aa5c8a74f828d841e32e2280a61);
+        
+    
+
+                var icon_ba76e73360f54f8fb8ef3303ebf6e8f4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8f02543c0c154eb39f8307e758e2b1d2.setIcon(icon_ba76e73360f54f8fb8ef3303ebf6e8f4);
+            
+    
+            var popup_f95382398eab4874aed4236120f5e32f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5c4403de04764558b94071b1b61dccd2 = $(`<div id="html_5c4403de04764558b94071b1b61dccd2" style="width: 100.0%; height: 100.0%;">Pakhare Bagar Bus Stop, Shikha, Myagdi (1200 meters)</div>`)[0];
+                popup_f95382398eab4874aed4236120f5e32f.setContent(html_5c4403de04764558b94071b1b61dccd2);
+            
+
+            marker_8f02543c0c154eb39f8307e758e2b1d2.bindPopup(popup_f95382398eab4874aed4236120f5e32f)
+            ;
+
+            
+        
+    
+        var marker_50e794bc92f34d75bacc075dfecad542 = L.marker(
+            [28.480452000000003, 83.6511],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_0cbd9aa5c8a74f828d841e32e2280a61);
+        
+    
+
+                var icon_5cdfa8cea1084cfe82bd1b22ebf617d8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_50e794bc92f34d75bacc075dfecad542.setIcon(icon_5cdfa8cea1084cfe82bd1b22ebf617d8);
+            
+    
+            var popup_5f5e0bdb88cc4969ad0c2fbdf63bea9d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e09f70af908a48a1b3cf824032f1edec = $(`<div id="html_e09f70af908a48a1b3cf824032f1edec" style="width: 100.0%; height: 100.0%;">Pakhare Bagar, Shikha, Myagdi (1300 meters)</div>`)[0];
+                popup_5f5e0bdb88cc4969ad0c2fbdf63bea9d.setContent(html_e09f70af908a48a1b3cf824032f1edec);
+            
+
+            marker_50e794bc92f34d75bacc075dfecad542.bindPopup(popup_5f5e0bdb88cc4969ad0c2fbdf63bea9d)
+            ;
+
+            
+        
+    
+        var marker_34c883d822ab4d618f0bcd00b68b7a00 = L.marker(
+            [28.476651, 83.654219],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_0cbd9aa5c8a74f828d841e32e2280a61);
+        
+    
+
+                var icon_08a5e2415c8a495a993bd0bd7a5b533d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_34c883d822ab4d618f0bcd00b68b7a00.setIcon(icon_08a5e2415c8a495a993bd0bd7a5b533d);
+            
+    
+            var popup_d0be866fa0ca4377a597c51c92d2102f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a191b560128142bf96c9ef891eb29869 = $(`<div id="html_a191b560128142bf96c9ef891eb29869" style="width: 100.0%; height: 100.0%;">Pakhare Bagar, Shikha, Myagdi (1400 meters)</div>`)[0];
+                popup_d0be866fa0ca4377a597c51c92d2102f.setContent(html_a191b560128142bf96c9ef891eb29869);
+            
+
+            marker_34c883d822ab4d618f0bcd00b68b7a00.bindPopup(popup_d0be866fa0ca4377a597c51c92d2102f)
+            ;
+
+            
+        
+    
+        var marker_3fd67c98b03c49e1bcbf5698fe6bfd73 = L.marker(
+            [28.477295, 83.650295],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_0cbd9aa5c8a74f828d841e32e2280a61);
+        
+    
+
+                var icon_56825e5d007b4598bd55f8606500e0fc = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3fd67c98b03c49e1bcbf5698fe6bfd73.setIcon(icon_56825e5d007b4598bd55f8606500e0fc);
+            
+    
+            var popup_e3a1d71054444b39b8033fd7ea063ea7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7afd3679e31e4bfd90c98f4e6b534569 = $(`<div id="html_7afd3679e31e4bfd90c98f4e6b534569" style="width: 100.0%; height: 100.0%;">Pakhare Bagar, Shikha, Myagdi (1500 meters)</div>`)[0];
+                popup_e3a1d71054444b39b8033fd7ea063ea7.setContent(html_7afd3679e31e4bfd90c98f4e6b534569);
+            
+
+            marker_3fd67c98b03c49e1bcbf5698fe6bfd73.bindPopup(popup_e3a1d71054444b39b8033fd7ea063ea7)
+            ;
+
+            
+        
+    
+        var marker_6b802ffa92474cf9bc26d373264483ad = L.marker(
+            [28.468828000000002, 83.651864],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_0cbd9aa5c8a74f828d841e32e2280a61);
+        
+    
+
+                var icon_d6f9e87076cb4c008d9f650f886d52d3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6b802ffa92474cf9bc26d373264483ad.setIcon(icon_d6f9e87076cb4c008d9f650f886d52d3);
+            
+    
+            var popup_bc084d265a6b4b6a878dbd26a0447e53 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6b6ab2bcb5744cf5b6b2647790ae229b = $(`<div id="html_6b6ab2bcb5744cf5b6b2647790ae229b" style="width: 100.0%; height: 100.0%;">Pakhare Bagar, Shikha, Myagdi (1600 meters)</div>`)[0];
+                popup_bc084d265a6b4b6a878dbd26a0447e53.setContent(html_6b6ab2bcb5744cf5b6b2647790ae229b);
+            
+
+            marker_6b802ffa92474cf9bc26d373264483ad.bindPopup(popup_bc084d265a6b4b6a878dbd26a0447e53)
+            ;
+
+            
+        
+    
+        var marker_f80d611df7a5406e80ee07faf5187d69 = L.marker(
+            [28.468888, 83.648726],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_0cbd9aa5c8a74f828d841e32e2280a61);
+        
+    
+
+                var icon_b785f7136312482888242ec312341d7c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f80d611df7a5406e80ee07faf5187d69.setIcon(icon_b785f7136312482888242ec312341d7c);
+            
+    
+            var popup_23b0eeea5657469d83899966fcc49ba1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e71ff3a9656c4baaafb42dc1f5fb27ea = $(`<div id="html_e71ff3a9656c4baaafb42dc1f5fb27ea" style="width: 100.0%; height: 100.0%;">Pakhare Bagar, Shikha, Myagdi (1700 meters)</div>`)[0];
+                popup_23b0eeea5657469d83899966fcc49ba1.setContent(html_e71ff3a9656c4baaafb42dc1f5fb27ea);
+            
+
+            marker_f80d611df7a5406e80ee07faf5187d69.bindPopup(popup_23b0eeea5657469d83899966fcc49ba1)
+            ;
+
+            
+        
+    
+        var marker_9e59c73428d54ee88622993c03965a85 = L.marker(
+            [28.451513000000002, 83.65963199999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_0cbd9aa5c8a74f828d841e32e2280a61);
+        
+    
+
+                var icon_5f60e3c85d784d9aa8503fc45706e2a5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9e59c73428d54ee88622993c03965a85.setIcon(icon_5f60e3c85d784d9aa8503fc45706e2a5);
+            
+    
+            var popup_b9dbdbefa69f43cbb20d453211e41224 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e7093dbbb6424e00b8ea8a8cff6c6eab = $(`<div id="html_e7093dbbb6424e00b8ea8a8cff6c6eab" style="width: 100.0%; height: 100.0%;">Khibang, Shikha, Myagdi (1800 meters)</div>`)[0];
+                popup_b9dbdbefa69f43cbb20d453211e41224.setContent(html_e7093dbbb6424e00b8ea8a8cff6c6eab);
+            
+
+            marker_9e59c73428d54ee88622993c03965a85.bindPopup(popup_b9dbdbefa69f43cbb20d453211e41224)
+            ;
+
+            
+        
+    
+        var marker_da131c5662f14e53ad105eba9cdbc2d9 = L.marker(
+            [28.447613, 83.662481],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_0cbd9aa5c8a74f828d841e32e2280a61);
+        
+    
+
+                var icon_e0b9acb426bb4451b98a4bf03f3af30f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_da131c5662f14e53ad105eba9cdbc2d9.setIcon(icon_e0b9acb426bb4451b98a4bf03f3af30f);
+            
+    
+            var popup_75521e2688d64759a58d5edefd4bbca8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bdc09f1328324640b6104aa743bcaec2 = $(`<div id="html_bdc09f1328324640b6104aa743bcaec2" style="width: 100.0%; height: 100.0%;">Khibang, Shikha, Myagdi (1900 meters)</div>`)[0];
+                popup_75521e2688d64759a58d5edefd4bbca8.setContent(html_bdc09f1328324640b6104aa743bcaec2);
+            
+
+            marker_da131c5662f14e53ad105eba9cdbc2d9.bindPopup(popup_75521e2688d64759a58d5edefd4bbca8)
+            ;
+
+            
+        
+    
+        var marker_24cf66335e3541cdbb50ceae7d096b73 = L.marker(
+            [28.441636, 83.673496],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_0cbd9aa5c8a74f828d841e32e2280a61);
+        
+    
+
+                var icon_05be13a3bdb145eeb14a571fddd9be5b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_24cf66335e3541cdbb50ceae7d096b73.setIcon(icon_05be13a3bdb145eeb14a571fddd9be5b);
+            
+    
+            var popup_33c8db886b31497bb5e364afac578466 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d7e5e3ae5f8e4a6cbc5a53775b36191e = $(`<div id="html_d7e5e3ae5f8e4a6cbc5a53775b36191e" style="width: 100.0%; height: 100.0%;">Annapurna Conservation Area Project - Khibang, Shikha, Myagdi (2020 meters)</div>`)[0];
+                popup_33c8db886b31497bb5e364afac578466.setContent(html_d7e5e3ae5f8e4a6cbc5a53775b36191e);
+            
+
+            marker_24cf66335e3541cdbb50ceae7d096b73.bindPopup(popup_33c8db886b31497bb5e364afac578466)
+            ;
+
+            
+        
+    
+        var marker_fcc4f2fbb6f741b38d7d466d00ebb17f = L.marker(
+            [28.433135999999998, 83.679826],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_0cbd9aa5c8a74f828d841e32e2280a61);
+        
+    
+
+                var icon_419c79ada4a34f69a244c3b91bc76e96 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fcc4f2fbb6f741b38d7d466d00ebb17f.setIcon(icon_419c79ada4a34f69a244c3b91bc76e96);
+            
+    
+            var popup_d1f51cee9d7f4c12915d92e5c72bd9dc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ec365a9d7e6d4fedb6efb52ed5119346 = $(`<div id="html_ec365a9d7e6d4fedb6efb52ed5119346" style="width: 100.0%; height: 100.0%;">Khibang - Ghode Pani trail, Shikha, Myagdi (2100 meters)</div>`)[0];
+                popup_d1f51cee9d7f4c12915d92e5c72bd9dc.setContent(html_ec365a9d7e6d4fedb6efb52ed5119346);
+            
+
+            marker_fcc4f2fbb6f741b38d7d466d00ebb17f.bindPopup(popup_d1f51cee9d7f4c12915d92e5c72bd9dc)
+            ;
+
+            
+        
+    
+        var marker_d85b67eab9f2445ba39139055688a768 = L.marker(
+            [28.431511999999998, 83.67838],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_0cbd9aa5c8a74f828d841e32e2280a61);
+        
+    
+
+                var icon_9c7c2699b31c4e3ea3c908e525e32d4a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d85b67eab9f2445ba39139055688a768.setIcon(icon_9c7c2699b31c4e3ea3c908e525e32d4a);
+            
+    
+            var popup_46131c17129944cb8bfb4de0eda9d593 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_997aafcb6cf04c55874cdb7556408156 = $(`<div id="html_997aafcb6cf04c55874cdb7556408156" style="width: 100.0%; height: 100.0%;">Khibang - Ghode Pani trail, Shikha, Myagdi (2200 meters)</div>`)[0];
+                popup_46131c17129944cb8bfb4de0eda9d593.setContent(html_997aafcb6cf04c55874cdb7556408156);
+            
+
+            marker_d85b67eab9f2445ba39139055688a768.bindPopup(popup_46131c17129944cb8bfb4de0eda9d593)
+            ;
+
+            
+        
+    
+        var marker_3051ed7aa00c412f84c0d2e923002254 = L.marker(
+            [28.427738, 83.67735],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_0cbd9aa5c8a74f828d841e32e2280a61);
+        
+    
+
+                var icon_08edf9a56b4f4c04ac22fbe60cd456f2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3051ed7aa00c412f84c0d2e923002254.setIcon(icon_08edf9a56b4f4c04ac22fbe60cd456f2);
+            
+    
+            var popup_4a2701f0b12d4e57a753fc82c4c1dc63 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3875cc1b262d443bb67e2e4bb14eda4e = $(`<div id="html_3875cc1b262d443bb67e2e4bb14eda4e" style="width: 100.0%; height: 100.0%;">Khibang - Ghode Pani trail, Shikha, Myagdi (2300 meters)</div>`)[0];
+                popup_4a2701f0b12d4e57a753fc82c4c1dc63.setContent(html_3875cc1b262d443bb67e2e4bb14eda4e);
+            
+
+            marker_3051ed7aa00c412f84c0d2e923002254.bindPopup(popup_4a2701f0b12d4e57a753fc82c4c1dc63)
+            ;
+
+            
+        
+    
+        var marker_d49485e71fb4414fac09bd06a549fb9c = L.marker(
+            [28.423207, 83.69499],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_0cbd9aa5c8a74f828d841e32e2280a61);
+        
+    
+
+                var icon_d4e5d57bb9214d80b9054c1800307628 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d49485e71fb4414fac09bd06a549fb9c.setIcon(icon_d4e5d57bb9214d80b9054c1800307628);
+            
+    
+            var popup_bcbc5732287d4157a17c47ee18f3c222 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_66def427b1504622be07813c9387f637 = $(`<div id="html_66def427b1504622be07813c9387f637" style="width: 100.0%; height: 100.0%;">Khibang - Ghode Pani trail, Shikha, Myagdi (2400 meters)</div>`)[0];
+                popup_bcbc5732287d4157a17c47ee18f3c222.setContent(html_66def427b1504622be07813c9387f637);
+            
+
+            marker_d49485e71fb4414fac09bd06a549fb9c.bindPopup(popup_bcbc5732287d4157a17c47ee18f3c222)
+            ;
+
+            
+        
+    
+        var marker_a50d9c69de544185af0afd72540d7afc = L.marker(
+            [28.418490000000002, 83.697649],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_0cbd9aa5c8a74f828d841e32e2280a61);
+        
+    
+
+                var icon_6cf359d944794bb586f93cab814c54fb = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a50d9c69de544185af0afd72540d7afc.setIcon(icon_6cf359d944794bb586f93cab814c54fb);
+            
+    
+            var popup_eb9a864f0938434d81c95d7f1a41fe1a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ad30f9306df94846ab425602fea12a7a = $(`<div id="html_ad30f9306df94846ab425602fea12a7a" style="width: 100.0%; height: 100.0%;">Khibang - Ghode Pani trail, Shikha, Myagdi (2500 meters)</div>`)[0];
+                popup_eb9a864f0938434d81c95d7f1a41fe1a.setContent(html_ad30f9306df94846ab425602fea12a7a);
+            
+
+            marker_a50d9c69de544185af0afd72540d7afc.bindPopup(popup_eb9a864f0938434d81c95d7f1a41fe1a)
+            ;
+
+            
+        
+    
+        var marker_2a3016e747574dc198a3724bd14aa7e8 = L.marker(
+            [28.414188, 83.699066],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_0cbd9aa5c8a74f828d841e32e2280a61);
+        
+    
+
+                var icon_7f333330f53745a58bac4f9b164b9d69 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2a3016e747574dc198a3724bd14aa7e8.setIcon(icon_7f333330f53745a58bac4f9b164b9d69);
+            
+    
+            var popup_a9ae50012841412ca99a2c27ae40b4a7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3acf8946d15045989f4d588fb167ed1c = $(`<div id="html_3acf8946d15045989f4d588fb167ed1c" style="width: 100.0%; height: 100.0%;">Khibang - Ghode Pani trail, Shikha, Myagdi (2600 meters)</div>`)[0];
+                popup_a9ae50012841412ca99a2c27ae40b4a7.setContent(html_3acf8946d15045989f4d588fb167ed1c);
+            
+
+            marker_2a3016e747574dc198a3724bd14aa7e8.bindPopup(popup_a9ae50012841412ca99a2c27ae40b4a7)
+            ;
+
+            
+        
+    
+        var marker_22244cc625e74fd08c55cea981bdaf9c = L.marker(
+            [28.410602, 83.697864],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_0cbd9aa5c8a74f828d841e32e2280a61);
+        
+    
+
+                var icon_ed6a904b64114ba28a4998cf54cb09f5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_22244cc625e74fd08c55cea981bdaf9c.setIcon(icon_ed6a904b64114ba28a4998cf54cb09f5);
+            
+    
+            var popup_45877a3be1b84dbfbc98aa8d0fbf486a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_668997631e9e48668fab2ff1d605da07 = $(`<div id="html_668997631e9e48668fab2ff1d605da07" style="width: 100.0%; height: 100.0%;">Khibang - Ghode Pani trail, Shikha, Myagdi (2700 meters)</div>`)[0];
+                popup_45877a3be1b84dbfbc98aa8d0fbf486a.setContent(html_668997631e9e48668fab2ff1d605da07);
+            
+
+            marker_22244cc625e74fd08c55cea981bdaf9c.bindPopup(popup_45877a3be1b84dbfbc98aa8d0fbf486a)
+            ;
+
+            
+        
+    
+        var marker_daf9a4201de6420d9fadd9d41ccf68e2 = L.marker(
+            [28.40505, 83.6994],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_0cbd9aa5c8a74f828d841e32e2280a61);
+        
+    
+
+                var icon_0f8a4def29fb4122a1b01a959c55746b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_daf9a4201de6420d9fadd9d41ccf68e2.setIcon(icon_0f8a4def29fb4122a1b01a959c55746b);
+            
+    
+            var popup_d568f16f3c5d4756b64bfd6a196b4a67 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a74a6bb97da241d28a1809b1b7b61920 = $(`<div id="html_a74a6bb97da241d28a1809b1b7b61920" style="width: 100.0%; height: 100.0%;">Ghode Pani, Ghode Pani, Myagdi (2800 meters)</div>`)[0];
+                popup_d568f16f3c5d4756b64bfd6a196b4a67.setContent(html_a74a6bb97da241d28a1809b1b7b61920);
+            
+
+            marker_daf9a4201de6420d9fadd9d41ccf68e2.bindPopup(popup_d568f16f3c5d4756b64bfd6a196b4a67)
+            ;
+
+            
+        
+    
+        var marker_14227106bb5b41658a180be3bdc08b12 = L.marker(
+            [28.401, 83.69941],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_0cbd9aa5c8a74f828d841e32e2280a61);
+        
+    
+
+                var icon_2381d19576c040d0b6fde96a608eb4dc = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_14227106bb5b41658a180be3bdc08b12.setIcon(icon_2381d19576c040d0b6fde96a608eb4dc);
+            
+    
+            var popup_58dfd9230af4422d82286ce1c9ddd723 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_48f1c3f78bcb48e78a4896dfaafc28f6 = $(`<div id="html_48f1c3f78bcb48e78a4896dfaafc28f6" style="width: 100.0%; height: 100.0%;">Ghode Pani Bajar, Ghode Pani, Myagdi (2880 meters)</div>`)[0];
+                popup_58dfd9230af4422d82286ce1c9ddd723.setContent(html_48f1c3f78bcb48e78a4896dfaafc28f6);
+            
+
+            marker_14227106bb5b41658a180be3bdc08b12.bindPopup(popup_58dfd9230af4422d82286ce1c9ddd723)
+            ;
+
+            
+        
+    
+        var marker_32200e0c58844bd68d3ad7b53107971e = L.marker(
+            [28.401073999999998, 83.695458],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_0cbd9aa5c8a74f828d841e32e2280a61);
+        
+    
+
+                var icon_144e33bc1f8249229a1edc57204faa30 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_32200e0c58844bd68d3ad7b53107971e.setIcon(icon_144e33bc1f8249229a1edc57204faa30);
+            
+    
+            var popup_d1b97282747d44cbbc09b07c002a0185 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0b5fe007e65d457894a167b778b76e45 = $(`<div id="html_0b5fe007e65d457894a167b778b76e45" style="width: 100.0%; height: 100.0%;">Ghode Pani - Poon Hill trail, Ghode Pani, Myagdi (2900 meters)</div>`)[0];
+                popup_d1b97282747d44cbbc09b07c002a0185.setContent(html_0b5fe007e65d457894a167b778b76e45);
+            
+
+            marker_32200e0c58844bd68d3ad7b53107971e.bindPopup(popup_d1b97282747d44cbbc09b07c002a0185)
+            ;
+
+            
+        
+    
+        var marker_a53eb5c67de94d30810d1d05d646c59a = L.marker(
+            [28.40115, 83.695414],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_0cbd9aa5c8a74f828d841e32e2280a61);
+        
+    
+
+                var icon_8b021d6903284963b8412023edf35dd5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a53eb5c67de94d30810d1d05d646c59a.setIcon(icon_8b021d6903284963b8412023edf35dd5);
+            
+    
+            var popup_1b48a01a90f740cca15ee4e2304248f0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_081889e98bc040aabc926f74a8b24f9a = $(`<div id="html_081889e98bc040aabc926f74a8b24f9a" style="width: 100.0%; height: 100.0%;">Ghode Pani - Poon Hil Trail, Ghode Pani, Myagdi (3000 meters)</div>`)[0];
+                popup_1b48a01a90f740cca15ee4e2304248f0.setContent(html_081889e98bc040aabc926f74a8b24f9a);
+            
+
+            marker_a53eb5c67de94d30810d1d05d646c59a.bindPopup(popup_1b48a01a90f740cca15ee4e2304248f0)
+            ;
+
+            
+        
+    
+        var marker_7947326f448647b88e1a1d414218e186 = L.marker(
+            [28.400470000000002, 83.69241099999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_0cbd9aa5c8a74f828d841e32e2280a61);
+        
+    
+
+                var icon_a1fd4797d6974d76b8a2b6bfcf3fc684 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7947326f448647b88e1a1d414218e186.setIcon(icon_a1fd4797d6974d76b8a2b6bfcf3fc684);
+            
+    
+            var popup_5d8e2f1f48b84471a6c13edf4ea0b7ec = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4c515d4d6dcc4d4487c883d1018d7333 = $(`<div id="html_4c515d4d6dcc4d4487c883d1018d7333" style="width: 100.0%; height: 100.0%;">Ghode Pani - Poon Hill trail, Ghode Pani, Myagdi (3100 meters)</div>`)[0];
+                popup_5d8e2f1f48b84471a6c13edf4ea0b7ec.setContent(html_4c515d4d6dcc4d4487c883d1018d7333);
+            
+
+            marker_7947326f448647b88e1a1d414218e186.bindPopup(popup_5d8e2f1f48b84471a6c13edf4ea0b7ec)
+            ;
+
+            
+        
+    
+        var marker_f76af4d25dd94b3a99eb65ef8bf9368e = L.marker(
+            [28.399751000000002, 83.688888],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_0cbd9aa5c8a74f828d841e32e2280a61);
+        
+    
+
+                var icon_f148256cec7a474a9c5c6c05d09cca73 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f76af4d25dd94b3a99eb65ef8bf9368e.setIcon(icon_f148256cec7a474a9c5c6c05d09cca73);
+            
+    
+            var popup_a21a26fe335d4183970ad8a42c84d37c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e664f506b1fd43d0b835c48707bacde9 = $(`<div id="html_e664f506b1fd43d0b835c48707bacde9" style="width: 100.0%; height: 100.0%;">Poon, Ghode Pani, Myagdi (3100 meters)</div>`)[0];
+                popup_a21a26fe335d4183970ad8a42c84d37c.setContent(html_e664f506b1fd43d0b835c48707bacde9);
+            
+
+            marker_f76af4d25dd94b3a99eb65ef8bf9368e.bindPopup(popup_a21a26fe335d4183970ad8a42c84d37c)
+            ;
+
+            
+        
+</script>
