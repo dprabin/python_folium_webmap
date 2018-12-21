@@ -1,0 +1,23 @@
+SN,NAME,LOCAL,DIST,ELEV,LAT,LON
+1,Pakhare Bagar Bus Stop,Shikha,Myagdi,1200,28.483262,83.646371
+2,Pakhare Bagar,Shikha,Myagdi,1300,28.480452,83.651100
+3,Pakhare Bagar,Shikha,Myagdi,1400,28.476651,83.654219
+4,Pakhare Bagar,Shikha,Myagdi,1500,28.477295,83.650295
+5,Pakhare Bagar,Shikha,Myagdi,1600,28.468828,83.651864
+6,Pakhare Bagar,Shikha,Myagdi,1700,28.468888,83.648726
+7,Khibang,Shikha,Myagdi,1800,28.451513,83.659632
+8,Khibang,Shikha,Myagdi,1900,28.447613,83.662481
+9,Annapurna Conservation Area Project - Khibang,Shikha,Myagdi,2020,28.441636,83.673496
+10,Khibang - Ghode Pani trail,Shikha,Myagdi,2100,28.433136,83.679826
+11,Khibang - Ghode Pani trail,Shikha,Myagdi,2200,28.431512,83.678380
+12,Khibang - Ghode Pani trail,Shikha,Myagdi,2300,28.427738,83.677350
+13,Khibang - Ghode Pani trail,Shikha,Myagdi,2400,28.423207,83.694990
+14,Khibang - Ghode Pani trail,Shikha,Myagdi,2500,28.418490,83.697649
+15,Khibang - Ghode Pani trail,Shikha,Myagdi,2600,28.414188,83.699066
+16,Khibang - Ghode Pani trail,Shikha,Myagdi,2700,28.410602,83.697864
+17,Ghode Pani,Ghode Pani,Myagdi,2800,28.405050,83.699400
+18,Ghode Pani Bajar,Ghode Pani,Myagdi,2880,28.401000,83.699410
+19,Ghode Pani - Poon Hill trail,Ghode Pani,Myagdi,2900,28.401074,83.695458
+20,Ghode Pani - Poon Hil Trail,Ghode Pani,Myagdi,3000,28.401150,83.695414
+21,Ghode Pani - Poon Hill trail,Ghode Pani,Myagdi,3100,28.400470,83.692411
+22,Poon,Ghode Pani,Myagdi,3100,28.399751,83.688888
